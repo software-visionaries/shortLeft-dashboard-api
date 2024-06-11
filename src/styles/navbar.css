@@ -1,0 +1,101 @@
+.header {
+    position: fixed ;
+    right: 0;
+    left: 0px;
+    z-index: 1;
+    height: 70px;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+    background-color: #fff;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.topSidebarPart {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  object-fit: contain;
+  width: auto;
+  height:50px;
+  margin-block: 5px;
+}
+.menuicon {
+  font-size: 32px;
+  margin-block: 14px;
+  stroke: #aab7cf;
+}
+.menuAndSearch {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  /* border: 1px solid #000; */
+  max-height: 40px;
+  background-color: #eef3f8;
+}
+
+.search-bar > input {
+  outline: none;
+  border: none;
+  background: none;
+}
+.search-bar > input::placeholder {
+ color: #aab7cf;
+}
+.searchIcon {
+  color: #aab7cf ;
+}
+
+.headerElements {
+  width: 85%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.notification {
+  font-size: 32px;
+  margin-block: 14px;
+}
+.notificationProfile {
+  margin-inline: 20px;
+  display: flex;
+  align-items: center;
+}
+.sidebar__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.userProfile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+.sidebar__link {
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 300;
+  color: #006C67;
+  transition: 0.3;
+  background: #f6f9ff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  width: 260px;
+  gap:5px;
+}
+
+
